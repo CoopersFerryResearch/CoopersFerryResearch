@@ -10,6 +10,10 @@ body {
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
+/* Create space around Navbar */
+.NavSpace {
+  margin-bottom: 80px;
+}
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {
