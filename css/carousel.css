@@ -37,6 +37,11 @@ body {
   width: auto;
 }
 
+.navbar-right {
+  padding-right: 6px;
+  padding-top: 6px;
+}
+
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
