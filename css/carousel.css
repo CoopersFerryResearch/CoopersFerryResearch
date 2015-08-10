@@ -39,7 +39,12 @@ body {
 
 .navbar-right {
   padding-right: 6px;
-  padding-top: 6px;
+}
+
+.SocialLink {
+  margin-top: -10px;
+  margin-right: -25px;
+  margin-bottom: -10px;
 }
 
 
