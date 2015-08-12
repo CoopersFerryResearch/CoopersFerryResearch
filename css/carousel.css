@@ -54,6 +54,11 @@ body {
   height: 35px;
 }
 
+.carousel-caption h1,
+.carousel-caption p {
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.6), 1px 1px 10px rgba(0, 0, 0, 0.6), 1px 1px 10px rgba(0, 0, 0, 0.6);
+}
+
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
