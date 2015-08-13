@@ -41,22 +41,23 @@ body {
   padding-right: 6px;
 }
 
-.SocialLink {
-  margin: -7px -15px -10px 0px;
-}
-
-.SocialLink a {
-}
-
-.SocialLink img {
-  margin: 0px -14px;
-  padding: -10px;
-  height: 35px;
-}
-
 .carousel-caption h1,
 .carousel-caption p {
   text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.6), 1px 1px 10px rgba(0, 0, 0, 0.6), 1px 1px 10px rgba(0, 0, 0, 0.6);
+}
+
+@media (max-width: 768px) {
+.SocialLink {
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: 95%;
+}
+
+.SocialLink img {
+  padding: 0px 0px 5px 0px;
+  margin: 0px 15px;
+}
 }
 
 /* CUSTOMIZE THE CAROUSEL
@@ -65,7 +66,7 @@ body {
 /* Carousel base class */
 .carousel {
   height: 500px;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -83,6 +84,7 @@ body {
   left: 0;
   min-width: 100%;
   height: 500px;
+  max-width: none;
 }
 
 
@@ -122,6 +124,14 @@ body {
 -------------------------------------------------- */
 
 @media (min-width: 768px) {
+  .SocialLink {
+    margin: 8px -10px -10px 0px;
+  }
+
+  .SocialLink img {
+    height: 35px;
+    margin-left: 10px;
+  }
   /* Navbar positioning foo */
   .navbar-wrapper {
     margin-top: 20px;
